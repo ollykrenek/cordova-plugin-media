@@ -312,7 +312,7 @@ public class AudioHandler extends CordovaPlugin {
     public void startPlayingAudio(String id, String file) {
         AudioPlayer audio = getOrCreatePlayer(id, file);
         audio.startPlaying(file);
-        getAudioFocus();
+        //getAudioFocus();
     }
 
     /**
